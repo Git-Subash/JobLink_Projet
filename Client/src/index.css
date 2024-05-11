@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-bar {
+    @apply menu flex flex-col gap-14 font-inter z-10   tracking-normal;
+  }
+  .button {
+    @apply flex flex-row gap-4 text-sm hover:bg-[#1a1a2c9f] hover:transition-all hover:ease-linear hover:duration-100 hover drop-shadow-2xl tracking-wider  py-2 px-4 rounded-md;
+  }
+}
